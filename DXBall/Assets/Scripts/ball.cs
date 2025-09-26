@@ -21,12 +21,12 @@ void Update()
 rb.linearVelocity= direction*speed;
 }
 void OnTriggerEnter2D(Collider2D collison){
-if (collison.gameObject.CompareTag("brick")){
-direction.y = -direction.y;
-Destroy(collison.gameObject);
-brickCount++;
-Debug.Log("Brick Count:" + brickCount);
-score.addScore(1);//increase score by 1 
+    if (collison.gameObject.CompareTag("brick")){
+         direction.y = -direction.y;
+         Destroy(collison.gameObject);
+         brickCount++;
+         //Debug.Log("Brick Count:" + brickCount);
+         score.addScore(1);//increase score by 1 
 
 
 } else if (collison.gameObject.CompareTag("paddle")){
