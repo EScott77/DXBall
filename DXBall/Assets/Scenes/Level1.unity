@@ -3617,7 +3617,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 012ac6fbb7f844324a1f60fe6fa2a8c6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d54a4fea340df4dac82d6673baebf020, type: 3}
   m_Color: {r: 0.14320946, g: 0, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3637,8 +3637,8 @@ Transform:
   m_GameObject: {fileID: 1467914560}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000909982, y: -0.99998343, z: 0.0055256444, w: 0.0016468071}
-  m_LocalPosition: {x: -0.39, y: -5.05, z: 0.35}
-  m_LocalScale: {x: 4.71838, y: 0.6436175, z: 0.726}
+  m_LocalPosition: {x: -0.7, y: -3.98, z: 0.38}
+  m_LocalScale: {x: 0.5581843, y: 0.27688426, z: 0.726}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3708,13 +3708,13 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 6.75, y: 3.96}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 7, y: 5}
   m_EdgeRadius: 0
 --- !u!114 &1467914565
 MonoBehaviour:
@@ -3793,12 +3793,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: b3d6d63a3a29d46b8907d3b2774052b4, type: 3}
+  m_Sprite: {fileID: -3603556060819865620, guid: f9dd7823267db48eba5e11e2abb63838, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 8.81, y: 8.76}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3813,8 +3813,8 @@ Transform:
   m_GameObject: {fileID: 1524080523}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.53, y: -3.64, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.47, y: -3.1, z: 0}
+  m_LocalScale: {x: 0.0797, y: 0.0744, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3897,7 +3897,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 4
 --- !u!1001 &1540441337
 PrefabInstance:
   m_ObjectHideFlags: 0
