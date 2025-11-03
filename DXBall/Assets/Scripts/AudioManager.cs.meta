@@ -1,2 +1,15 @@
 fileFormatVersion: 2
 guid: cead3b2e498394db697d8a03baf46a4f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - musicSource: {instanceID: 0}
+  - SFXSource: {instanceID: 0}
+  - background: {fileID: 8300000, guid: bf89d8d61a53148fcae3f938b2073401, type: 3}
+  - wallHit: {fileID: 8300000, guid: ecc1beb505aa84c51bb51b2fb9cdba89, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
